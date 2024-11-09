@@ -21,6 +21,36 @@
     - Process Builder
     - Visual Flows
     - Approval Processes
+
 ## Salesforce Database
+
 - Salesforce uses Oracle as its database.
 - All data is stored in tabluar format
+
+## Declarative Tools in Salesforce
+
+- Used to create applications without writing code.
+- Main focus on your problem solving skills and business logic.
+- List of declarative tools
+  - Workflow Rules
+    - One of the oldest automation tools in Salesforce
+    - Used to send email alerts, outbound messages
+    - Create task
+    - Update task
+    - Unable to change child record
+  - Process Builder
+    - Supports all the features of workflow rules except outbound messages
+    - We can set up multiple steps
+    - More actions are available
+    - Can update child records
+    - However, we cannot delete any record
+    - We cannot update unrelated records
+  - Visual Flows
+    - Most powerful declarative tool in Salesforce
+    - Can execute axpex classes
+    - Can execute lightning components
+    - We acan write almost all types of logic
+    - Similar to writing apex code
+    - However, it is slower than apex
+    - It is not recommended to use visual flows for complex logic
+    - Debugging is difficult in visual flows in some cases

@@ -65,3 +65,9 @@
 
 - Developer Console
 - Salesforce Extensions for Visual Studio Code
+## Data types in Apex
+
+- Primitive Data Types
+  - Boolean, Integer, Decimal, String, ID
+  - 
+- 
